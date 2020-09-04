@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Song from './Song';
+import Songs from './Songs';
 import * as serviceWorker from './serviceWorker';
+import datetime from 'react-datetime';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Songs />
   </React.StrictMode>,
   document.getElementById('root')
 );
